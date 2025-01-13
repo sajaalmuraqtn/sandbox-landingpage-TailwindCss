@@ -13,7 +13,7 @@ body {
 
 @layer base {
   h2 {
-    @apply leading-tight text-4xl font-semibold text-mainText mb-4;
+    @apply leading-tight text-3xl font-semibold text-mainText mb-4;
   }
 
   h3 {
@@ -26,11 +26,14 @@ body {
     @apply max-w-[1080px] w-[80%] m-auto;
   } 
   .paragraph {
-    @apply text-xl text-secondaryText;
+    @apply  text-secondaryText font-medium ;
   }
 
   .line {
     @apply w-full h-[1px] bg-[#E5E7EB];
+  }
+  .button{
+    @apply bg-[#E9EAF8] text-[#747ED1] font-semibold rounded-full p-3 px-5 mt-5
   }
 }
 
