@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landwind</title>
+    <title>SandBox</title>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -12,97 +12,95 @@
 </head>
 
 <body>
-    <nav class=" wrapper flex items-center justify-between  gap-8 py-6">
+    <nav class="bg-[#F5F5F5]">
+        <div class=" wrapper flex items-center justify-center  gap-40  py-6 ">
+            <div class="flex items-center gap-8 w-full justify-between 2md:w-fit">
+                <div class="w-[134px] sm:w-[156px] flex">
+                    <img class="w-full" src="./assets/Link → logo-dark.svg">
+                </div>
+                <div class="block 2md:hidden " id="menu-toggle">
+                    <i class="material-icons">menu</i>
+                </div>
+            </div>
+            <div id="menu"
+                class=" 2md:flex flex-col 2md:flex-row items-center justify-between w-full absolute top-[70px] left-0 bg-white 2md:bg-[#F5F5F5] 2md:bg-none py-5 2md:shadow-none shadow px-10 2md:static 2md:p-0">
+                <ul class="2md:flex flex-col 2md:flex-row gap-8">
+                    <li><a class="  text-[#343F52] font-medium font-semibold capitalize " href="">Demos</a></li>
+                    <li class="mt-4 2md:m-0"><a class="  text-[#343F52] font-medium font-semibold capitalize "
+                            href="">Pages</a></li>
+                    <li class="mt-4 2md:m-0"><a class="  text-[#343F52] font-medium font-semibold capitalize "
+                            href="">Projects</a></li>
+                    <li class="mt-4 2md:m-0"><a class="  text-[#343F52] font-medium font-semibold capitalize "
+                            href="">Blog</a></li>
+                    <li class="mt-4 2md:m-0"><a class="  text-[#343F52] font-medium font-semibold capitalize "
+                            href="">Blocks</a></li>
+                    <li class="mt-4 2md:m-0"><a class="  text-[#343F52] font-medium font-semibold capitalize "
+                            href="">Documentation</a></li>
 
-        <div class="flex items-center gap-8 w-full justify-between 2md:w-fit">
-            <div class="w-[120px] sm:w-[156px] flex">
-                <img class="w-full" src="./assets/Logo.svg">
-            </div>
-            <div class="block 2md:hidden " id="menu-toggle">
-                <i class="material-icons">menu</i>
+
+                </ul>
+
             </div>
         </div>
-        <div id="menu"
-            class=" 2md:flex flex-col 2md:flex-row items-center justify-between w-full absolute top-[80px] left-0 bg-white py-5 2md:shadow-none shadow px-10 2md:static 2md:p-0">
-            <ul class="2md:flex flex-col 2md:flex-row gap-8">
-                <li><a class="font-Inter text-mainText font-medium capitalize " href="">company</a></li>
-                <li class="mt-4 2md:mt-0"><a class="font-Inter text-mainText font-medium capitalize "
-                        href="">marketplace</a></li>
-                <li class="mt-4 2md:mt-0"><a class="  text-mainText font-medium capitalize " href="">features</a></li>
-                <li class="mt-4 2md:mt-0"><a class="  text-mainText font-medium capitalize " href="">team</a></li>
-                <li class="mt-4 2md:mt-0"><a class="  text-mainText font-medium capitalize " href="">contact</a></li>
-            </ul>
-            <div class="flex gap-8 items-center mt-5 2md:mt-0">
-                <a href="" class="capitalize text-mainText rounded-lg ">login</a>
-                <a href="" class="capitalize button py-2 px-3">get started</a>
-            </div>
-        </div>
+
 
     </nav>
 
-    <header class="wrapper py-16">
-        <div class="flex flex-col lg:flex-row gap-24 items-center justify-center">
+    <header class="  py-16 header h-full">
+        <div class=" wrapper flex flex-col gap-8 items-center  text-center justify-center  h-5/6 text-white">
+            <h1 class="font-semibold text-3xl">Top-Notch Support</h1>
+            <p class="font-medium  text-white w-full lg:w-2/5">We are a digital agency specializing in web design,
+                mobile development and seo optimization.</p>
 
-            <div class="w-full 2md:w-[50%]">
-                <h1 class="text-mainText text-2xl 2md:text-6xl mb-6 font-black">Building digital products & brands.</h1>
-                <p class="paragraph ">Here at flowbite we focus on markets where technology,
-                    innovation, and capital can unlock long-term value and drive economic growth.</p>
-                <div class="flex mt-10 gap-4">
-                    <button class="button px-5 py-3">Start 30 day free trial</button>
-                    <button class=" px-5 py-3 border border-[#E5E7EB] rounded-lg">Pricing & FAQ</button>
-                </div>
-            </div>
-            <div class="w-full 2md:w-[40%]">
-                <img class="w-full" src="assets/marketing-strategy 1.svg" alt="digital">
-            </div>
-        </div>
-
-        <div class=" items-center py-9 icons grid grid-cols-2 2xl:grid-cols-6 2md:grid-cols-3 gap-3">
-            <img src="./assets/Google.svg " alt="Google">
-            <img src="./assets/Vector.svg " alt="Microsoft">
-            <img src="./assets/Spotify.svg " alt="Spotify">
-            <img src="./assets/Mailchimp.svg" alt="Mailchimp">
-            <img src="./assets/Airbnb.svg" alt="Airbnb">
-            <img src="./assets/uber.svg " alt="uber">
         </div>
     </header>
 
     <main>
         <section class="bg-[#F9FAFB] pt-24 py-6">
-            <div class="wrapper grid grid-cols-1 2xl:grid-cols-2 gap-[74px] items-center justify-center">
+            <div class="wrapper ">
                 <div>
-                    <h2 class="">Work with tools you already use
-                    </h2>
-                    <p class="paragraph mb-8">Deliver great service experiences fast - without the
-                        complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil,
-                        and deploy changes with ease.</p>
-                    <div class="line"></div>
-                    <ul class="mt-8 flex flex-col gap-4">
-                        <li class="flex gap-2">
-                            <img src="assets/icons/icon-done.svg" alt="done">
-                            <span>
-                                Continuous integration and deployment
-                            </span>
-                        </li>
-                        <li class="flex gap-2">
-                            <img src="assets/icons/icon-done.svg" alt="done">
-                            <span>
-                                Development workflow
-                            </span>
-                        </li>
-                        <li class="flex gap-2">
-                            <img src="assets/icons/icon-done.svg" alt="done">
-                            <span>
-                                Knowledge management
-                            </span>
-                        </li>
-                    </ul>
-                    <p class="paragraph mt-8">Deliver great service experiences fast - without the
-                        complexity of traditional ITSM solutions.</p>
+                    <div class="text-center flex flex-col gap-4 items-center w-full">
+                        <span class="text-secondaryText font-semibold">What We Do?</span>
+                        <h2 class="w-3/5 mb-8">The service we offer is specifically
+                            designed to meet your needs.
+                        </h2>
+
+                    </div>
+                    <div class="grid grid-cols-1 2xl:grid-cols-2 gap-[74px] items-center justify-center">
+                        <div>
+                            <img src="assets/setting.svg" alt="setting">
+                        </div>
+                        <div>
+
+                            <p class="paragraph mb-8">Deliver great service experiences fast - without the
+                                complexity of traditional ITSM solutions.Accelerate critical development work, eliminate
+                                toil,
+                                and deploy changes with ease.</p>
+                            <ul class="mt-8 flex flex-col gap-4">
+                                <li class="flex gap-2">
+                                    <img src="assets/icons/icon-done.svg" alt="done">
+                                    <span>
+                                        Continuous integration and deployment
+                                    </span>
+                                </li>
+                                <li class="flex gap-2">
+                                    <img src="assets/icons/icon-done.svg" alt="done">
+                                    <span>
+                                        Development workflow
+                                    </span>
+                                </li>
+                                <li class="flex gap-2">
+                                    <img src="assets/icons/icon-done.svg" alt="done">
+                                    <span>
+                                        Knowledge management
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="">
-                    <img src="assets/features-1 1.svg" alt="features">
-                </div>
+
             </div>
             <div class="wrapper grid grid-cols-1 2xl:grid-cols-2 gap-[74px] items-center justify-center mt-10">
                 <div class="">
@@ -329,12 +327,16 @@
                     </h3>
                     <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
                         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                            <p class="mb-2 text-gray-500 dark:text-gray-400">Generally, it is accepted to use FlowBite in open-source projects, as long as it is not a UI library, a theme, a template, a page-builder that would be considered as an alternative to FlowBite itself.</p>
-                            <p class="text-gray-500 dark:text-gray-400">With that being said, feel free to use this design kit for your open-source projects. 
-                                       </p>
-                            <p class="text-gray-500 dark:text-gray-400">Find out more information by  <a
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Generally, it is accepted to use FlowBite
+                                in open-source projects, as long as it is not a UI library, a theme, a template, a
+                                page-builder that would be considered as an alternative to FlowBite itself.</p>
+                            <p class="text-gray-500 dark:text-gray-400">With that being said, feel free to use this
+                                design kit for your open-source projects.
+                            </p>
+                            <p class="text-gray-500 dark:text-gray-400">Find out more information by <a
                                     href="/docs/getting-started/introduction/"
-                                    class="text-blue-600 dark:text-blue-500 hover:underline">reading the license.</a> </p>
+                                    class="text-blue-600 dark:text-blue-500 hover:underline">reading the license.</a>
+                            </p>
                         </div>
                     </div>
                     <h3 id="accordion-flush-heading-2">
